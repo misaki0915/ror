@@ -104,9 +104,19 @@ footer {
   
   .debug_dimp{
     clear: both;
-    float left;
+    float: left;
     width: 100%;
     margin-top: 45px;
     @include box-sizing;
   }
+}
+
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
 }
